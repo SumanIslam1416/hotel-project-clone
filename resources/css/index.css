@@ -1,0 +1,317 @@
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body{
+  font-family: 'Lato', sans-serif;
+  background-color: #fff;
+  color: #555;
+  font-size: 20px;
+  line-height: 30px;
+  height: auto;
+}
+
+/* -------------------------- */
+/* REUSABLE COMPONENT */
+/*--------------------------*/
+.row{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+strong{
+  color: #f7c08a;
+}
+.btn{
+  display: inline-block;
+  font-size: 85%;
+  padding: 13px 20px;
+}
+.clearfix::after{
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+.primary-color{
+  background-color: #f7c08a;
+  color: inherit;
+}
+/* heading */
+h1,
+h2,
+h3{
+  margin-bottom: 25px;
+}
+/* -------------------------- */
+/* header */
+/*--------------------------*/
+#navbar{
+  background-color: #333;
+  color: #fff;
+}
+#navbar h1{
+  font-size: 130%;
+  color: #fff;
+  display: inline-block;
+  padding: 20px 0;
+  margin: 0;
+  font-weight: bold;
+}
+#navbar h1 a{
+  border: none;
+}
+.main-nav{
+  float: right;
+  list-style: none;
+}
+.main-nav li{
+  float: left;
+  display: block;
+  font-size: 80%;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+  display: block;
+  padding: 20px;
+  text-align: center;
+  border: none;
+}
+.main-nav li a:hover,
+.main-nav li a.current{
+  background-color: #444;
+  color: #f7c08a;
+}
+.showcase{
+  background-image: url('image/showcase.jpg');
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 90vh;
+}
+.showcase-info{
+  color: #fff;
+  text-align: center;
+  padding-top: 160px;
+}
+.showcase-info h1{
+  font-size: 300%;
+  line-height: 1.2;
+}
+.showcase-info h3{
+  font-size: 90%;
+  word-spacing: 2px;
+} 
+.button-full{
+  background-color: #333;
+  color: #fff;
+  font-weight: 400;
+}
+.button-full:hover,
+.button-full:active{
+  background-color: #f7c08a;
+  color: #333;
+}
+
+/* -------------------------- */
+/* section history */
+/*--------------------------*/
+#history{
+  /* background-image: url('image/photo-1.jpg');
+  background-position: center center;
+  background-size: cover */
+  margin: 0;
+  width: 100%;
+  height: 400px;
+}
+.history-image img{
+  width: 50%;
+  float: left;
+  height: 400px;
+}
+.history-info{
+  background-color: #333;
+  color: #fff;
+  height: 400px;
+  width: 50%;
+  float: right;
+  padding: 50px 30px;
+  text-align: center;
+}
+.history-info h2{
+  font-size: 115%;
+  font-weight: 700;
+  word-spacing: 2px;
+}
+.history-info p{
+  font-size: 85%;
+  font-style: italic;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  margin-bottom: 34px;
+}
+.history-btn{
+  background-color: #e9e6e6;
+  color: #333;
+  
+}
+.history-btn:hover,
+.history-btn:active{
+  background-color: #f7c08a;
+}
+
+/* -------------------------- */
+/* section service */
+/*--------------------------*/
+#service{
+  background: #eeeded;
+}
+.box{
+  width: 33%;
+  float: left;
+  padding: 50px;
+  text-align: center;
+}
+.box h2{
+  font-size: 95%;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.box p{
+  font-size: 90%;
+}
+/* -------------------------- */
+/* Footer */
+/*--------------------------*/
+footer{
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 25px 0;
+  font-size: 85%;
+  font-weight: 300;
+}
+
+                              /* -------------------------- */
+                              /* --------About page-------- */
+                              /*--------------------------*/
+
+/* -------------------------- */
+/* about */
+/*--------------------------*/
+#about{
+  background-color: #eeeded;
+  margin: 0;
+  width: 100%;
+  padding: 70px;
+}
+ #about .about-image{
+  width: 50%;
+  float: left;
+  min-height: 100%;
+}
+#about .about-image img{
+  display: block;
+  width: 80%;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+#about .about-info{
+  width: 50%;
+  float: right;
+  min-height: 100%;
+}
+#about .about-info h1{
+  font-size: 220%;
+  font-weight: 400;
+}
+#about .about-info p{
+  font-style: italic;
+  font-size: 90%;
+  font-weight: 700;
+  text-align: justify;
+  color: #222
+}
+/* -------------------------- */
+/* customer testimonial */
+/*--------------------------*/
+.testimonial{
+  background-image: url('image/test-bg.jpg');
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+}
+.testimonial h1{
+  text-align: center;
+  color: #fff;
+  margin-top: 80px;
+}
+.customer-testimonial{
+  background-color: #f7c08a;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+.customer-testimonial img{
+  display: block;
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+  float: left;
+  vertical-align: middle;
+}
+.customer-testimonial p{
+  font-size: 80%;
+  vertical-align: middle;
+}
+
+                      /* -------------------------- */
+                      /* --------Contact page-------- */
+                      /*--------------------------*/
+.contact p{
+  font-size: 85%;
+}
+.form-group{
+  font-size: 80%;
+  width: 100%;
+  margin-top: 20px;
+}
+.form-group:nth-child(1){
+  margin-top: 5px;
+}
+input{
+  width: 100%;
+  padding: 10px 5px;
+  font-size: 80%;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+}
+textarea{
+  width: 100%;
+  height: 200px;
+  border: 1px solid #ddd;
+}
+button{
+  padding: 13px 20px;
+  margin: 15px 0 30px 0;
+  border: none;
+  font-size: 90%;
+}
+*:focus{
+  outline: none;
+  border: 1px solid #f8c573;
+}
+/* --------Contact info-------- */
+#contact-info{
+  background-color: #333;
+  color: #fff;
+}

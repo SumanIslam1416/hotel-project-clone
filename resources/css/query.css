@@ -1,0 +1,363 @@
+@media only screen and (max-width: 1024px)
+{
+  .row{
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  #navbar h1{
+    font-size: 115%;
+  }
+  .main-nav li{
+    font-size: 75%;
+  }
+  .showcase-info{
+    padding-top: 100px;
+  }
+  .showcase-info h1{
+    font-size: 250%;
+    line-height: 1.7rem;
+  }
+  .showcase-info h3{
+    font-size: 80%;
+  } 
+  .btn{
+    font-size: 75%;
+    padding: 11px 18px;
+  }
+  #history{
+    height: 420px;
+  }
+  .history-image img{
+    height: 420px;
+  }
+  .history-info{
+    padding: 40px 30px;
+    height: 420px;
+  }
+  .history-info h2{
+    font-size: 105%;
+    word-spacing: 1.5px;
+  }
+  .history-info p{
+    font-size: 75%;
+    word-spacing: 1.5px;
+    letter-spacing: 1;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  .box h2{
+    font-size: 90%;
+    margin-top: 8px;
+  }
+  .box p{
+    font-size: 80%;
+  }
+  span{
+    font-size: .7em;
+  }
+  #about{
+    padding: 50px;
+  }
+   #about .about-image{
+    margin-top: 25px;
+  }
+  #about .about-info p{
+    font-size: 85%;
+  }
+  #about .about-info h1{
+    font-size: 200%;
+  }
+  .testimonial h1{
+    font-size: 200%;
+    margin-top: 80px;
+  }
+  .customer-testimonial p{
+    font-size: 75%;
+  }
+  footer{
+    padding: 20px 0;
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px)
+{
+  .row{
+    max-width: 690px;
+    margin: 0 auto;
+  }
+  #navbar h1{
+    font-size: 115%;
+    padding: 17px 0;
+  }
+  .main-nav li a:link,
+  .main-nav li a:visited{
+    padding: 17px;
+  }
+  .main-nav li{
+    font-size: 75%;
+  }
+  .showcase-info{
+   padding-top: 100px;
+  }
+  .showcase-info h1{
+    font-size: 230%;
+    line-height: 1.7rem;
+  }
+  .showcase-info h3{
+    font-size: 75%;
+  } 
+  .btn{
+    font-size: 75%;
+    padding: 11px 18px;
+  }
+  #history{
+    height: 370px;
+  }
+  .history-image img{
+    display: none;
+  }
+  .history-info{
+    padding: 40px 30px;
+    height: 370px;
+    width: 100%;
+  }
+  .history-info h2{
+    font-size: 110%;
+    word-spacing: 1.5px;
+  }
+  .history-info p{
+  font-size: 80%;
+  margin-bottom: 35px;
+  text-align: center;
+  }
+  .box{
+    padding: 30px;
+  }
+  .box h2{
+  font-size: 90%;
+  margin-top: 2px;
+  margin-bottom: 7px;
+  }
+  .box p{
+  font-size: 75%;
+  }
+  span{
+    font-size: .7em;
+  }
+  #about .about-image,
+  #about .about-info{
+    float: none;
+    width: 100%;
+  }
+  #about .about-image img{
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  #about .about-info h1{
+    font-size: 200%;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .customer-testimonial img{
+    margin-top: 10px;
+  }
+  .customer-testimonial p{
+    font-size: 80%;
+  }
+  .contact h1{
+    font-size: 180%;
+  }
+  .contact p{
+    font-size: 80%;
+  }
+  textarea{
+    height: 170px;
+  }
+  footer{
+    padding: 20px 0;
+    font-size: 78%;
+  }
+}
+
+@media only screen and (max-width: 425px)
+{
+  #navbar h1{
+    font-size: 115%;
+    display: block;
+    text-align: center;
+    padding: 13px 0;
+    border-bottom: 1px solid #444;
+  }
+  .main-nav{
+    float: none;
+  }
+  .main-nav li{
+  float: none;
+  font-size: 75%;
+}
+  .main-nav li a:link,
+  .main-nav li a:visited{
+    padding: 5px;
+    border-bottom: 1px solid #444;
+  }
+  .showcase-info{
+   padding-top: 100px;
+  }
+  .showcase-info h1{
+    font-size: 200%;
+    line-height: 1.7rem;
+  }
+  .showcase-info h3{
+    font-size: 70%;
+  } 
+  .btn{
+    font-size: 70%;
+    padding: 10px 15px;
+  }
+  #history{
+    height: 460px;
+  }
+  .history-image img{
+    display: none;
+  }
+  .history-info{
+    padding: 40px 30px;
+    height: 460px;
+    width: 100%;
+  }
+  .history-info h2{
+    font-size: 110%;
+    word-spacing: 1.5px;
+    letter-spacing: 1.5px;
+  }
+  .history-info p{
+  font-size: 75%;
+  margin-bottom: 35px;
+  text-align: center;
+  }
+  .box{
+    float: none;
+    width: 100%;
+    padding: 50px;
+  }
+  .box h2{
+  font-size: 95%;
+  margin-top: 2px;
+  margin-bottom: 7px;
+  }
+  .box p{
+  font-size: 80%;
+  }
+  span{
+    font-size: .7em;
+  }
+  #about .about-info p{
+    font-size: 80%;
+  }
+  .testimonial h1{
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .contact .row{
+    max-width: 400px;
+  }
+  .contact h1{
+    font-size: 160%;
+  }
+  textarea{
+    height: 150px;
+  }
+  button{
+    padding: 13px 20px;
+    font-size: 85%;
+  }
+  #contact-info .box{
+    border-bottom: 1px solid #555;
+  }
+  footer{
+    padding: 18px 0;
+    font-size: 75%;
+  }
+}
+
+@media only screen and (max-width: 375px)
+{
+  #navbar h1{
+    font-size: 105%;
+    padding: 11px 0;
+  }
+  .main-nav{
+    float: none;
+  }
+  .main-nav li{
+  float: none;
+  font-size: 70%;
+}
+  .main-nav li a:link,
+  .main-nav li a:visited{
+    padding: 5px;
+    border-bottom: 1px solid #444;
+  }
+  .showcase-info{
+   padding-top: 100px;
+  }
+  .showcase{
+    height: 80vh;
+  }
+  .showcase-info h1{
+    font-size: 190%;
+    line-height: 1.7rem;
+  }
+  .showcase-info h3{
+    font-size: 65%;
+  } 
+  .btn{
+    font-size: 70%;
+    padding: 10px 15px;
+  }
+  #history{
+    height: 460px;
+  }
+  .history-image img{
+    display: none;
+  }
+  .history-info{
+    padding: 30px 15px;
+    height: 460px;
+    width: 100%;
+  }
+  .history-info h2{
+    font-size: 110%;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  #about .about-info h1{
+    font-size: 150%;
+    margin-top: 40px;
+  }
+  #about .about-info p{
+    font-size: 75%;
+  }
+  .testimonial h1{
+    font-size: 170%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .contact .row{
+    max-width: 350px;
+  }
+  textarea{
+    height: 135px;
+  }
+  button{
+    padding: 13px 20px;
+    font-size: 80%;
+  }
+  footer{
+    padding: 15px 0;
+    font-size: 70%;
+  }
+}
